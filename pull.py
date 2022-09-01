@@ -50,7 +50,7 @@ def get():
     # 题目题号
     no = jsonText.get('questionFrontendId')
     # 题名（中文）
-    leetcodeTitle = jsonText.get('translatedTitle')
+    leetcodeTitleCn = jsonText.get('translatedTitle')
     # 题目难度级别
     level = jsonText.get('difficulty')
     # 题目内容
